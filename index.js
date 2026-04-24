@@ -1103,4 +1103,8 @@ app.get('/api/chat/history', async (req, res) => {
   }
 });
 
-export default app;
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 Server Bandha Backend berjalan di port ${PORT}`);
+});
