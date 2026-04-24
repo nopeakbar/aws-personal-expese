@@ -723,7 +723,7 @@ const cekDataKurangApp = async (userId, draftData, targetSheetIndex = 0) => {
 // ENDPOINTS VERCEL
 // =====================================================================
 app.get('/', (req, res) => {
-  res.send('Server Bot Keuangan Berjalan di Vercel!');
+  res.send('Server Bot Keuangan Berjalan di AWS EC2 via CI/CD coyyyyyyyyyyyy!');
 });
 
 app.post('/api/webhook', async (req, res) => {
