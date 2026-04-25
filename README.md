@@ -25,3 +25,4 @@ The core application integrates 4 state-of-the-art Large Language Models to auto
 * **Backend:** Node.js, Express
 * **Database:** Google Sheets API (Real-time sync)
 * **Cloud & Ops:** AWS EC2, Docker, GitHub Actions, Nginx, Terraform
+* **Cost & Resource Optimization:** Architected a highly memory-efficient containerization strategy, successfully running a complex Quad-LLM backend on a low-tier EC2 instance (t3.micro) with a <60MB RAM footprint, effectively minimizing cloud infrastructure costs without sacrificing performance.
